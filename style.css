@@ -1,0 +1,52 @@
+body {
+	background-color:rgb(230, 230, 230);
+	color: rgb(50, 50, 50);
+	font-family:Helvetica;
+	font-size:16px;
+		font-weight:lighter;
+}
+h1, h2{
+		font-family:Courier; 
+
+}
+h1{
+	color: purple;
+	font-weight: 85;
+	font-size:70px;
+}
+h2{
+	color: rgb(50, 50, 50); 
+}
+a{
+	text-decoration-color:red;
+}
+a:hover {
+	color: yellow
+}
+
+
+.container{
+	width: 700px;
+	margin:40px auto;
+}
+.card-white{
+	background-color: white;
+	padding:40px;
+	box-shadow:5px 10px 30px rgba (0,0,0,0.1);
+	border-radius:4px;  
+	margin: 20px  5px;
+	text-align:center;
+}
+.img-circle{
+	border-radius: 50%;
+
+}
+.btn-blue{
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
